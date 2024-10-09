@@ -20,6 +20,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    font-size: 18px;
 }
 
 nav ul li a {
@@ -45,6 +46,10 @@ main {
 
 h2 {
     color: #0077B6;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -77,6 +82,11 @@ label {
     margin: 10px 0 5px;
 }
 
+fieldset{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 input, textarea, button {
     padding: 10px;
     margin-bottom: 10px;
@@ -89,6 +99,8 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 button:hover {
